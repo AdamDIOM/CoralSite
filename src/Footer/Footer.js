@@ -1,9 +1,25 @@
+import { Col, Container, Row } from 'react-bootstrap';
 import './Footer.css';
 
 export default function Footer() {
   return (
     <div className="Footer">
-      Footer
+        <Container>
+            <Row>
+                <Col sm={3} xs={12}>
+                    <a href='https://instagram.com/coral.iom' target="_blank">Instagram</a>
+                </Col>
+                <Col sm={3} xs={12}>
+                    <a href='https://facebook.com/coral.iom' target="_blank">Facebook</a>
+                </Col>
+                <Col sm={3} xs={12}>
+                    <a href='https://coyc.im' taregt="_blank">Junior Achievement</a>
+                </Col>
+                <Col sm={3} xs={12}>
+                    <a href="mailto:coralisleofman@gmail.com">Email us!</a>
+                </Col>
+            </Row>
+        </Container>
     </div>
   );
   }
