@@ -13,7 +13,7 @@ export default function Footer() {
                     <a href='https://facebook.com/coral.iom' target="_blank">Facebook</a>
                 </Col>
                 <Col sm={3} xs={12}>
-                    <a href='https://coyc.im' taregt="_blank">Junior Achievement</a>
+                    <a href='http://www.coyc.im' target="_blank">Junior Achievement</a>
                 </Col>
                 <Col sm={3} xs={12}>
                     <a href="mailto:coralisleofman@gmail.com">Email us!</a>
